@@ -3,17 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Silverlight</string>
+	<string>local.munki.Prezi</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>http://www.microsoft.com/getsilverlight/handlers/getsilverlight.ashx</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft/Silverlight</string>
+		<string>Productivity</string>
 		<key>NAME</key>
-		<string>Silverlight</string>
-		<key>USER_AGENT</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<string>Prezi Desktop</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,11 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Internet Plugins</string>
+			<string>Productivity</string>
 			<key>description</key>
-			<string>Rich media web plugin.</string>
+			<string>With Prezi Desktop you can create prezis on your computer without an internet connection. You can store your presentations locally and upload them to Prezi.com if you want to work or share them online.</string>
+			<key>developer</key>
+			<string>Prezi</string>
 			<key>display_name</key>
-			<string>Microsoft Silverlight</string>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -33,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.grahamgilbert.munki.Silverlight</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.prezi</string>
 </dict>
 </plist>

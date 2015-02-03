@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Silverlight</string>
+	<string>local.munki.Teamviewer</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://www.microsoft.com/getsilverlight/handlers/getsilverlight.ashx</string>
+		<string>http://download.teamviewer.com/download/TeamViewer.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft/Silverlight</string>
+		<string>apps/TeamViewer</string>
 		<key>NAME</key>
-		<string>Silverlight</string>
-		<key>USER_AGENT</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<string>TeamViewer</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,18 +19,24 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Internet Plugins</string>
+			<string>Internet</string>
 			<key>description</key>
-			<string>Rich media web plugin.</string>
+			<string>All-In-One Solution for Remote Access and Support over the Internet.</string>
+			<key>developer</key>
+			<string>TeamViewer GmbH</string>
 			<key>display_name</key>
-			<string>Microsoft Silverlight</string>
+			<string>TeamViewer</string>
+			<key>minimum_os_version</key>
+			<string>10.6</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.grahamgilbert.munki.Silverlight</string>
+	<string>io.github.hjuutilainen.munki.TeamViewer</string>
 </dict>
 </plist>
