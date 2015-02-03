@@ -16,7 +16,8 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
+				<string>release</string>
 			</array>
 			<key>description</key>
 			<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>

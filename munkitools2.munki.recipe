@@ -33,7 +33,10 @@
 		<key>MUNKITOOLS_LAUNCHD_NAME</key>
 		<string>munkitools_launchd</string>
 		<key>MUNKI_CATALOG</key>
-		<string>testing</string>
+		<array>
+				<string>testing</string>
+				<string>release</string>
+		</array>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Munki</string>
 		<key>NAME</key>
