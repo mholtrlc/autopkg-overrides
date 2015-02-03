@@ -19,6 +19,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>release</string>
 			</array>
 			<key>description</key>
 			<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
