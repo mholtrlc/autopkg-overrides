@@ -17,6 +17,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>release</string>
 			</array>
 			<key>category</key>
 			<string>Internet</string>

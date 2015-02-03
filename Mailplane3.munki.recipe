@@ -17,6 +17,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>release</string>
 			</array>
 			<key>description</key>
 			<string>The best way to use Gmail on your Mac.</string>
